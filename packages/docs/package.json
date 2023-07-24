@@ -30,10 +30,11 @@
   "dependencies": {
     "@caioquirinomedeiros/eslint-config": "*",
     "@caioquirinomedeiros/prettier-config": "*",
-    "@caioquirinomedeiros/ts-config": "*",
     "@caioquirinomedeiros/react": "*",
     "@caioquirinomedeiros/tokens": "*",
+    "@caioquirinomedeiros/ts-config": "*",
     "@storybook/addons": "^7.1.0",
+    "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
