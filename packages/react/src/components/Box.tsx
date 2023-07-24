@@ -11,3 +11,5 @@ export const Box = styled("div", {
   backgroundColor: "$gray800",
   border: "1px solid $gray600",
 });
+
+Box.displayName = "Box"

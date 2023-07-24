@@ -7,7 +7,26 @@ const meta: Meta<ButtonProps> = {
   component: Button,
   tags: ['autodocs'],
   args: {
-    children: 'Button'
+    children: 'Button',
+    variant: 'primary',
+    size: 'md',
+    disabled: false
+  },
+
+  argTypes: {
+    variant: {
+      options: ['primary', 'secondary', 'tertiary'],
+      control: { type: 'inline-radio' }
+    },
+    size: {
+      options: ['sm', 'md'],
+      control: { type: 'inline-radio' }
+    },
+    disabled: {
+      control: { type: 'boolean' },
+      defaultValue: false
+    },
+    onClick: { action: 'clicked' }
   }
 }
 

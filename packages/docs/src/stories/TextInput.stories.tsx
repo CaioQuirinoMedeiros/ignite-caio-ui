@@ -10,7 +10,19 @@ const meta: Meta<TextInputProps> = {
   title: 'Form/TextInput',
   component: TextInput,
   tags: ['autodocs'],
-  args: {},
+  args: {
+    disabled: false,
+    placeholder: "Placeholder"
+  },
+  argTypes: {
+    disabled: {
+      control: { type: 'boolean' },
+      defaultValue: false
+    },
+    placeholder: {
+      type: 'string'
+    }
+  },
   decorators: [
     (Story) => (
       <Box css={{ display: 'flex', flexDirection: 'column', gap: '$2' }}>

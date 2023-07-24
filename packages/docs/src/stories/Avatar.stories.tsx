@@ -6,7 +6,11 @@ const meta: Meta<AvatarProps> = {
   component: Avatar,
   tags: ['autodocs'],
   args: {
-    src: 'https://github.com./CaioQuirinoMedeiros.png'
+    src: 'https://github.com./CaioQuirinoMedeiros.png',
+    alt: "Imagem de avatar"
+  },
+  argTypes: {
+    src: { type: 'string' }
   }
 }
 

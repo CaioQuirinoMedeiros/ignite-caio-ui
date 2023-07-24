@@ -13,6 +13,4 @@ export const colors = {
 
   main300: '#00B37E',
   main500: '#00875F',
-  main700: '#015F43',
-  main900: '#00291D',
 }

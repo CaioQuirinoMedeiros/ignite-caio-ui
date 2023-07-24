@@ -9,7 +9,25 @@ const meta: Meta<HeadingProps> = {
   component: Heading,
   tags: ['autodocs'],
   args: {
-    children: 'Heading'
+    children: 'Heading',
+    size: "md"
+  },
+  argTypes: {
+    size: {
+      options: [
+        'xs',
+        'sm',
+        'md',
+        'lg',
+        'xl',
+        '2xl',
+        '3xl',
+        '4xl',
+        '5xl',
+        '6xl'
+      ],
+      control: { type: 'inline-radio' }
+    }
   }
 }
 

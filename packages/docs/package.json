@@ -33,6 +33,7 @@
     "@caioquirinomedeiros/react": "*",
     "@caioquirinomedeiros/tokens": "*",
     "@caioquirinomedeiros/ts-config": "*",
+    "@storybook/addon-a11y": "^7.1.1",
     "@storybook/addons": "^7.1.0",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

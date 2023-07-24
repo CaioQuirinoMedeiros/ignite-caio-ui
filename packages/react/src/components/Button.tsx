@@ -20,6 +20,7 @@ export const Button = styled("button", {
   padding: "0 $4",
 
   cursor: "pointer",
+  transition: "all 0.2s",
 
   svg: {
     width: "$4",
@@ -83,3 +84,5 @@ export const Button = styled("button", {
     size: "md",
   },
 });
+
+Button.displayName = "Button"
