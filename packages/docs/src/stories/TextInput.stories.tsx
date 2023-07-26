@@ -12,7 +12,7 @@ const meta: Meta<TextInputProps> = {
   tags: ['autodocs'],
   args: {
     disabled: false,
-    placeholder: "Placeholder"
+    placeholder: 'Placeholder'
   },
   argTypes: {
     disabled: {
@@ -52,6 +52,7 @@ export const Disabled: Story = {
 
 export const WithPrefix: Story = {
   args: {
-    prefix: 'cal.com/'
+    prefix: 'cal.com/',
+    placeholder: 'your-username'
   }
 }
