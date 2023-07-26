@@ -1,7 +1,15 @@
 import { themes } from '@storybook/theming'
+import { Provider } from '@caioquirinomedeiros/react'
 
 /** @type { import('@storybook/react').Preview } */
 const preview = {
+  decorators: [
+    (Story) => (
+      <Provider>
+        <Story />
+      </Provider>
+    )
+  ],
   parameters: {
     actions: { argTypesRegex: '^on[A-Z].*' },
     controls: {
