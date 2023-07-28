@@ -8,7 +8,9 @@ export * from "./components/TextArea";
 export * from "./components/Checkbox";
 export * from "./components/MultiStep";
 export * from "./components/Tooltip";
+export * from "./components/Toast";
+export * from "./components/Toast/useToast";
 
-export * from "./styles"
+export * from "./styles";
 
-export * from "./Provider"
+export * from "./Provider";

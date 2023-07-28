@@ -1,4 +1,5 @@
 import * as RadixTooltip from "@radix-ui/react-tooltip";
+import { ToastProvider } from "./components/Toast/ToastProvider";
 
 export interface ProviderProps {
   children: React.ReactNode;
@@ -7,5 +8,9 @@ export interface ProviderProps {
 export function Provider(props: ProviderProps) {
   const { children } = props;
 
-  return <RadixTooltip.Provider>{children}</RadixTooltip.Provider>;
+  return (
+    <RadixTooltip.Provider>
+      <ToastProvider>{children}</ToastProvider>
+    </RadixTooltip.Provider>
+  );
 }
