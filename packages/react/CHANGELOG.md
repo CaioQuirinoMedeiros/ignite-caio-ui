@@ -1,5 +1,11 @@
 # @caioquirinomedeiros/react
 
+## 2.3.0
+
+### Minor Changes
+
+- Toast and Tooltip components
+
 ## 2.2.0
 
 ### Minor Changes
